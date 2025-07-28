@@ -6,9 +6,10 @@
 
 
   ## Project Overview
-
+  Use LEGO data to see if there are any noticeable trends by theme.
 
   ## Project Objective
+  Use the data to compare number of pieces to price a break down of number of sets by year, number of sets by theme, and finally average piece cost and list price by theme.
 
 
   ## Methods and Rationale
@@ -16,7 +17,7 @@
 
   ## Technologies Used
   
-  The project was developed in Jupyter Notebooks with Pandas being used to clean the data sets.
+  The project was developed in Jupyter Notebooks with Pandas being used to clean the data sets.  SQLite was used for the database with Matplotlib used for graphs.
 
   ## Gathering the data
 
