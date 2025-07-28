@@ -4,12 +4,25 @@
 
   ## Project Setup Instructions
 
-  | Command | Linux/Mac  | GitBash |
-  | ------- | ---------- | ------- |
-  | Create | python3 -m venv venv | python -m venv venv |
-  | Activate | source venv/bin/activate | source venv/Scripts/activate |
-  | Install | pip install -r requirements.txt | pip install -r requirements.txt |
-  | Deactivate | deactivate | deactivate |
+  - Python 3 is required.
+  - Jupyter Notebook needs to be installed to run "main.ipynb"
+  - Clone the repo from github.
+  - Setup a virtual environment and activate it.
+
+     | Command | Linux/Mac  | GitBash |
+     | ------- | ---------- | ------- |
+     | Create | python3 -m venv venv | python -m venv venv |
+     | Activate | source venv/bin/activate | source venv/Scripts/activate |
+     | Install | pip install -r requirements.txt | pip install -r requirements.txt |
+     | Deactivate | deactivate | deactivate |
+
+  - To make sure you have all the necessary packages, run
+    "pip install -r requirements.txt".
+  - The following packages will be required to run the program:
+    - pandas
+    - matplotlib
+    - SQLite
+  - Note: If you want to see more details on cleaning the data you can look at the "data_cleaning.ipynb"
 
 
   ## Project Overview
