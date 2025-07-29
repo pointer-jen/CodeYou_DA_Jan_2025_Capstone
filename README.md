@@ -33,6 +33,7 @@
 
 
   ## Methods and Rationale
+  Method used was to download data sets from Kaggle, then the .csv files were cleaned with python and pandas.  This cleaned data was then exported out to new .csv files.  These cleaned .csv files were then combined and put into sqlite.  With the cleaned combined dataframe matplotlib was used to plot graphs for correlation analysis to help understand any relationships between the values. 
 
 
   ## Technologies Used
