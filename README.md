@@ -4,7 +4,7 @@
 
   ## Project Setup Instructions
 
-  - Python 3 is required.
+  - Python 3 is required (version 3.12.6 was used)
   - Jupyter Notebook needs to be installed to run "main.ipynb"
   - Clone the repo from github.
   - Setup a virtual environment and activate it.
