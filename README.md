@@ -29,7 +29,7 @@
   Use LEGO data to see if there are any noticeable trends by theme.
 
   ## Project Objective
-  Use the data to compare number of pieces to price a break down of number of sets by year, number of sets by theme, and finally average piece cost and list price by theme.
+  Use the data to compare number of pieces to price, a break down of number of sets by year, number of sets by theme, as well as average piece cost and list price by theme.
 
 
   ## Methods and Rationale
@@ -81,4 +81,16 @@
 - There seemed to be a trend up in the star rating to year released; however that could be due to limited data set.
 - The average piece cost by year released seemed higher for earlier years; however that could be due to limited data set.
 
+## Project Summary
+- The primary purpose of the project was to use skills developed through Code You along with the LEGO data acquired through Kaggle to see if there are any noticable trends in the data.  This was an exploritory project without a specific problem or question to be solved.  It was instead an exercise in finding, cleaning, and evaluating data.
 
+## Data inconsistencies, limitations, issues
+- There were limitations with the LEGO Sets data pulled from Kaggle as it was limited to data they scraped from lego.com
+- The LEGO Sets & Themes was a larger data set but did not include list price or ratings so was more limited in what couold be compared.
+
+## Project Presentation
+A visual presentation for this project can be found in Tableau Public by going to - [LEGO Data Analysis](https://public.tableau.com/views/CodeYou_DA_Jan_2025_Capstone_Presentation_Jennifer_Pointer/ProjectPresentation?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+
+## Conclusion
+From the limited data set you can generally see correlation between number of pieces in a set and the list price.  There was also generally correlation between the value star rating and the star rating.  As a LEGO collector I was suprised that the Star Wars theme sets did not have a higher cost per piece as it seems like they are more expensive so I thought it was perhaps a licensing thing.  However, based on the limited data used this was not the case.  The Ultimate Collector Series (UCS) are more expensive due to the higher piece counts but the price per piece is not higher than other sets.  Overall I found digging into the data to be interesting and if time allows at some point where I could get larger and more recent data sets it could be interesting to see if there are any other trends.  I plan to continue purchasing LEGO but will continue making my purchase decisions based on personal preference and not necessarily value for money or ratings that others have given the set.
