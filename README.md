@@ -1,13 +1,17 @@
   # LEGO
   _A data analysis project designed to exam LEGO data_
 
+  I have grown up as a fan of LEGO and have encourage this with my kid as well.  We enjoy spending time together building with LEGO so I thought it could be a fun topic for my data analysis project for CodeYou.
+
+  ![Lego Data Story Telling Image](https://github.com/pointer-jen/CodeYou_DA_Jan_2025_Capstone/images/Lego_data.jpg)
+
 
   ## Project Setup Instructions
 
   - Python 3 is required (version 3.12.6 was used)
-  - Jupyter Notebook needs to be installed to run "main.ipynb"
-  - Clone the repo from github.
-  - Setup a virtual environment and activate it.
+  - Jupyter Notebook needs to be installed to run "main.ipynb" 
+  - Clone the repo from github
+  - Setup a virtual environment and activate it
 
      | Command | Linux/Mac  | GitBash |
      | ------- | ---------- | ------- |
@@ -17,7 +21,7 @@
      | Deactivate | deactivate | deactivate |
 
   - To make sure you have all the necessary packages, run
-    "pip install -r requirements.txt".
+    "pip install -r requirements.txt"
   - The following packages will be required to run the program:
     - pandas
     - matplotlib
@@ -26,19 +30,19 @@
 
 
   ## Project Overview
-  Use LEGO data to see if there are any noticeable trends by theme.
+  Use LEGO data to see if there are any noticeable trends.
 
   ## Project Objective
   Use the data to compare number of pieces to price, a break down of number of sets by year, number of sets by theme, as well as average piece cost and list price by theme.
 
 
   ## Methods and Rationale
-  Method used was to download data sets from Kaggle, then the .csv files were cleaned with python and pandas.  This cleaned data was then exported out to new .csv files.  These cleaned .csv files were then combined and put into sqlite.  With the cleaned combined dataframe matplotlib was used to plot graphs for correlation analysis to help understand any relationships between the values. 
+  Method used was to download data sets from Kaggle, then the .csv files were cleaned with python and pandas.  This cleaned data was then exported out to new .csv files.  These cleaned .csv files were then combined and put into sqlite.  With the cleaned combined dataframe matplotlib was used to plot graphs for correlation analysis to help understand any relationships between the values.  In addition I exported the cleaned data to excel files that were then loaded into Tableau Public to provide presentation of project with visuals.
 
 
   ## Technologies Used
   
-  The project was developed in Jupyter Notebooks with Pandas being used to clean the data sets.  SQLite was used for the database with Matplotlib used for graphs.
+  The project was developed in Jupyter Notebooks with Pandas being used to clean the data sets.  SQLite was used for the database with Matplotlib used for graphs.  Tableau Public was used to create visuals used in story for project presentation.
 
   ## Gathering the data
 
@@ -73,16 +77,16 @@
 ## Key Findings
 - There is generally a correlation to number of pieces and list price, as more pieces generally results in a higher price.
 - There were a suprisingly larger number of sets for 2017 dat set.  This highlighted limitations with the Lego Sets data pulled from Kaggle and was limited to data they scraped from lego.com.  The LEGO Sets & Themes was a larger data set but did not include list price or ratings so was more limited in what could be compared.  I did a quick check using just the data from the cleaned LEGO Sets & Themes data to see sets by year and it gives a fuller picture where 2017 was not a large increase over others but part of a trend up in number of sets per year.
-- The star wars them had the biggest numbe rof sets in combined data set (and was the second highest theme in larger data set)
+- The star wars them had the biggest number of sets in combined data set (and was the second highest theme in larger data set)
 - I was suprised that the average piece cost by theme was not higher for star wars given it's popularity and I thought it would be more expensive due to licensing; however it was not near the top of average piece cost by theme in the combined data set.
-- The average list prices being high for the Ultimate Collector Series (UCS) was not surpirsing as man of those are star wars sets but are the higher priced and piece count sets.
-- The value star rating compared to start rating seems to trend together for the most part as the star rating increased the value star rating also increased.
+- The average list prices being high for the Ultimate Collector Series (UCS) was not surprising as many of those are Star Wars sets but are the higher priced and piece count sets.
+- The value star rating compared to star rating seems to trend together for the most part, as the star rating increased the value star rating also increased.
 - The value star rating compared to review difficulty seemed mostly in line with some outlier exceptions.  Comparing the star rating instead of value star rating to review difficulty did not seem to make much of a difference.
 - There seemed to be a trend up in the star rating to year released; however that could be due to limited data set.
 - The average piece cost by year released seemed higher for earlier years; however that could be due to limited data set.
 
 ## Project Summary
-- The primary purpose of the project was to use skills developed through Code You along with the LEGO data acquired through Kaggle to see if there are any noticable trends in the data.  This was an exploritory project without a specific problem or question to be solved.  It was instead an exercise in finding, cleaning, and evaluating data.
+The primary purpose of the project was to use skills developed through CodeYou along with the LEGO data acquired through Kaggle to see if there are any noticable trends in the data.  This was an exploritory project without a specific problem or question to be solved.  It was instead an exercise in finding, cleaning, and evaluating data.
 
 ## Data inconsistencies, limitations, issues
 - There were limitations with the LEGO Sets data pulled from Kaggle as it was limited to data they scraped from lego.com
