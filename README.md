@@ -1,7 +1,7 @@
   # LEGO
   _A data analysis project designed to exam LEGO data_
 
-  I have grown up as a fan of LEGO and have encourage this with my kid as well.  We enjoy spending time together building with LEGO so I thought it could be a fun topic for my data analysis project for CodeYou.
+  I have grown up as a fan of LEGO and have encouraged this with my kid as well.  We enjoy spending time together building with LEGO so I thought it could be a fun topic for my data analysis project for CodeYou.  Bringing together LEGO and data seemed like a good fit.
 
   ![Lego Data Story Telling Image](https://github.com/pointer-jen/CodeYou_DA_Jan_2025_Capstone/blob/main/images/Lego_data.jpg?raw=true "LEGO Data Project")
 
