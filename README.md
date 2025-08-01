@@ -5,9 +5,19 @@
 
   ![Lego Data Story Telling Image](https://github.com/pointer-jen/CodeYou_DA_Jan_2025_Capstone/blob/main/images/Lego_data.jpg?raw=true "LEGO Data Project")  _Note: Image was found from google search of Lego data, source of image https://www.linkedin.com/pulse/story-we-create-along-way-value-amber-leah-mcmillan/_ 
 
+  ## Project Overview
+  Use LEGO data to see if there are any noticeable trends.
+
+  ## Project Objective
+  Use the data to compare number of pieces to price, a break down of number of sets by year, number of sets by theme, as well as average piece cost and list price by theme.
+
+  ## Methods and Rationale
+  Method used was to download data sets from Kaggle, then the .csv files were cleaned with python and pandas.  This cleaned data was then exported out to new .csv files.  These cleaned .csv files were then combined and put into sqlite.  With the cleaned combined dataframe matplotlib was used to plot graphs for correlation analysis to help understand any relationships between the values.  In addition I exported the cleaned data to excel files that were then loaded into Tableau Public to provide presentation of project with visuals.
+
+  ## Technologies Used
+  The project was developed in Jupyter Notebooks with Pandas being used to clean the data sets.  SQLite was used for the database with Matplotlib used for graphs.  Tableau Public was used to create visuals used in story for project presentation.
 
   ## Project Setup Instructions
-
   - Python 3 is required (version 3.12.6 was used)
   - Jupyter Notebook needs to be installed to run "main.ipynb" 
   - Clone the repo from github
@@ -28,28 +38,23 @@
     - SQLite
   - Note: If you want to see more details on cleaning the data you can look at the "data_cleaning.ipynb"
 
-
-  ## Project Overview
-  Use LEGO data to see if there are any noticeable trends.
-
-  ## Project Objective
-  Use the data to compare number of pieces to price, a break down of number of sets by year, number of sets by theme, as well as average piece cost and list price by theme.
-
-
-  ## Methods and Rationale
-  Method used was to download data sets from Kaggle, then the .csv files were cleaned with python and pandas.  This cleaned data was then exported out to new .csv files.  These cleaned .csv files were then combined and put into sqlite.  With the cleaned combined dataframe matplotlib was used to plot graphs for correlation analysis to help understand any relationships between the values.  In addition I exported the cleaned data to excel files that were then loaded into Tableau Public to provide presentation of project with visuals.
-
-
-  ## Technologies Used
-  
-  The project was developed in Jupyter Notebooks with Pandas being used to clean the data sets.  SQLite was used for the database with Matplotlib used for graphs.  Tableau Public was used to create visuals used in story for project presentation.
-
   ## Gathering the data
-
   Data in this project comes from:
   - lego_sets.csv came from https://www.kaggle.com/datasets/mterzolo/lego-sets
-  - lego_sets_and_themes.csv came from https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database
+      - Data Set summary:
+          - 12261 rows
+          - 14 columns
+              - Decimal:  7
+              - String:   1
+              - Country:  1
 
+  - lego_sets_and_themes.csv came from https://www.kaggle.com/datasets/jkraak/lego-sets-and-themes-database
+      - Data Set summary:
+          - 21503 rows
+          - 6 columns
+              - Decimal:  2
+              - String:   3
+              - URL:  1
 
 ## Data Dictionary - A description of each variable in the data sets
 
@@ -72,7 +77,6 @@
 | year_released     | Year Released                | Theme                         |
 | image_url         | Image URL                    | Theme                         |
 | theme_name        | Theme Name                   | Theme                         |
-
 
 ## Key Findings
 - There is generally a correlation to number of pieces and list price, as more pieces generally results in a higher price.
